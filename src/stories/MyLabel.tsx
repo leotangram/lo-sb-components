@@ -16,18 +16,18 @@ export interface MyLabelProps {
   /**
    * This is the label that will be displayed
    */
+  label: string
   /**
    * Custom color of the font
    */
   fontColor?: string
-  label: string
   /**
    * This is size of tag
    */
   size: 'normal' | 'h1' | 'h2' | 'h3'
 }
 
-const MyLabel = ({
+export const MyLabel = ({
   allCaps = false,
   backgroundColor = 'transparent',
   color = 'primary',
@@ -44,5 +44,3 @@ const MyLabel = ({
     </span>
   )
 }
-
-export default MyLabel

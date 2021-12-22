@@ -1,5 +1,5 @@
-import MyLabel from '../../components/my-label/MyLabel'
 import { ComponentMeta, ComponentStory } from '@storybook/react'
+import { MyLabel } from './MyLabel'
 
 export default {
   argTypes: {
